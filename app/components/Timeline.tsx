@@ -16,10 +16,10 @@ const timeline: Array<TimelineType> = [
     // },
     {
       company: "TeleAI",
-      location: "Ottawa, ON",
+      location: "Ottawa, ON, Canada",
       year: "2023 Jun - 2023 August",
       title: "Software Intern",
-      duration: "3 months",
+      duration: "3 months         ",
       details: [
         "Implemented automated testing using <strong>Playwright</strong>, enhancing accuracy and streamlining the development process, resulting in saved time and more efficient workflows.",
         "Assisted in the prototyping of a key application, transforming it from <strong>Java</strong> to a <strong>React + Spring Boot framework</strong>. Contributed to planning, design, and development, setting the stage for a more robust and scalable solution that aligns with modern technology standards.",

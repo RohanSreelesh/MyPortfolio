@@ -24,7 +24,7 @@ const TimelineItem: React.FC<TimelineType> = ({
           <div className="my-1 text-sm font-normal leading-none">
             {duration}
           </div>
-          <div className="text-sm text-gray-600 dark:text-gray-300">
+          <div className="text-sm text-gray-600 dark:text-gray-300 italic">
             {company}, {location}
           </div>
         </div>
