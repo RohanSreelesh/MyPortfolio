@@ -7,7 +7,7 @@ const projects = [
       "FitFinder is a fitness-oriented application that connects users and trainers, offering a seamless interface for interaction and personal training needs. This application is hosted on fitfinder.ca. Built with NextJS, TailwindCSS, and Supabase as the backend, FitFinder is deployed with Vercel. ",
     image: "/FitFinder.png",
     github: "https://github.com/RohanSreelesh/FitFinder",
-    link: "about:blank",
+    link: "https://fitfinder.ca/",
     skills: ["Next.js", "React.js", "TypeScript", "Supabase", "PostgreSQL","Node.js", "Tailwind CSS", "Vercel",  ],
   },
   {
@@ -41,8 +41,8 @@ const projects = [
     description:
       "Ghost vs Hunters is a simulation of a ghost hunt in a multi-room environment, where four hunters equipped with devices search for three kinds of evidence left behind by a ghost. This project was developed using C, Valgrind, and Linux.",
     image: "/ghost.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+    github: "https://github.com/RohanSreelesh/Ghost-vs-Hunters",
+    link: "https://github.com/RohanSreelesh/Ghost-vs-Hunters",
     skills: ["C", "Valgrind", "Linux"],
   },
   {
