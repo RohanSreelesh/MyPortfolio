@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.projects-main {
+    @apply max-w-3xl mx-auto px-4 sm:px-6;
+}
+
+@media (min-width: 1024px) { /* This breakpoint is for medium screens */
+    .projects-main {
+        max-width: 70%;
+    }
+}
+/* General scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px; /* Increased width */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px; /* Softened track corners */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #aaa; /* More subtle color */
+  border-radius: 10px; /* Matched thumb corners with track */
+  transition: background 0.5s ease-in-out; /* Slower transition */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}
+
+/* Dark mode styling */
+html.dark ::-webkit-scrollbar {
+  width: 8px; /* Consistent with light mode */
+}
+
+html.dark ::-webkit-scrollbar-track {
+  background: #2a2a2a; /* Slightly lighter track in dark mode */
+}
+
+html.dark ::-webkit-scrollbar-thumb {
+  background: #666; /* Consistent with light mode */
+  border-radius: 10px;
+  transition: background 0.5s ease-in-out;
+}
+
+html.dark ::-webkit-scrollbar-thumb:hover {
+  background: #444; /* Slightly lighter hover color */
+}
+
+@media (max-width: 640px) { /* You can adjust this value based on the breakpoint you want to target */
+  .project-card-container {
+    height: 50rem; /* You can adjust this value to the height you prefer */
+  }
+}
+.image-container {
+  position: relative;
+  width: 350px; /* Width of the image */
+  height: 200px; /* Height of the image */
+  overflow: hidden; /* Hide parts of the image that don't fit */
+}
