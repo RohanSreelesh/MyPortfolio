@@ -15,8 +15,8 @@ const timeline: Array<TimelineType> = [
     //   ],
     // },
     {
-      company: "TeleAI",
-      location: "Ottawa, ON, Canada",
+      company: "TeleAI Corporation",
+      location: "Ottawa, ON",
       year: "2023 Jun - 2023 August",
       title: "Software Intern",
       duration: "3 months         ",
