@@ -12,7 +12,7 @@ const projects = [
   },
   {
     name: "MyPortfolio",
-    description: "MyPortfolio is a professional showcase highlighting my skills, achievements, and work timeline. Hosted on yourdomain.com, this personal portfolio is built using Next.js and TailwindCSS. MyPortfolio is deployed with Vercel.",
+    description: "MyPortfolio is a professional showcase highlighting my skills, achievements, and work timeline. Hosted on RohanTech.dev, this personal portfolio is built using Next.js and TailwindCSS. MyPortfolio is deployed with Vercel.",
     image: "/portfolio.png",
     github: "https://github.com/RohanSreelesh/MyPortfolio",
     link: "https://RohanTech.dev",
