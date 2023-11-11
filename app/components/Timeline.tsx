@@ -3,17 +3,17 @@ import { TimelineType } from "../../types/type";
 //import { EducationType } from "../../types/type";
 
 const timeline: Array<TimelineType> = [
-    // {
-    //   company: "Ross Video",
-    //   location: "Ottawa, ON",
-    //   year: "September 2023 - December 2023",
-    //   title: "Software Developer Intern",
-    //   duration: "4 months",
-    //   details: [
-    //     "Currently leading the automation of the Nokia Service Platform (NSP) patch tool using <strong>Bash</strong> and <strong>Ansible</strong>, aiming to increase speed and accuracy of updates while minimizing downtime.",
-    //     "Leveraged <strong>Docker</strong> and <strong>Kubernetes</strong> to configure the (NSP), leading to the development of a detailed wiki that expedites future deployments.",
-    //   ],
-    // },
+    {
+      company: "Ross Video",
+      location: "Ottawa, ON",
+      year: "September 2023 - December 2023",
+      title: "Software Developer Co-op",
+      duration: "4 months",
+      details: [
+        "Leading the integration of the LED control API into DashBoard (a company-wide facility monitoring platform) using <strong>JavaScript</strong>, enhancing LED display operations by up to 10x.",
+        "Developed a DashBoard plugin that accelerates technical support functions, enabling command execution with increased speed, cutting down on setup and debugging time.",
+      ],
+     },
     {
       company: "TeleAI Corporation",
       location: "Ottawa, ON",
