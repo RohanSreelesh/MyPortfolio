@@ -50,12 +50,6 @@ const  ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
                 className="hover:-translate-y-1 transition-transform cursor-pointer"
               />
             </Link>
-            <Link href={project.link} target="_blank">
-              <BsArrowUpRightSquare
-                size={30}
-                className="hover:-translate-y-1 transition-transform cursor-pointer"
-              />
-            </Link>
           </div>
         </div>
       </div>
